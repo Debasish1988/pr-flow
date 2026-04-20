@@ -4,5 +4,5 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Message
-        run: echo "Success"
+      - name: Testing Error
+        run: set /a 10/0
