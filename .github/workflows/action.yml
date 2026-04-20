@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Testing Error
-        run: set /a 10/0
+        run: exit 1
